@@ -1,16 +1,14 @@
 html,
 body {
-  margin-top: 15%;
+  margin-top: 0%;
   padding: 0%;
-  width: 100%;
-  height: 100%;
-  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #000;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 body {
   color: white;
@@ -35,23 +33,23 @@ button {
   font-family: 'Righteous', cursive;
   font-family: 'Roboto', sans-serif;
 }
-button p{
+button p {
   font-size: 45px;
   line-height: 0%;
   margin: 0%;
 }
-button p span{
+button p span {
   visibility: hidden;
 }
 button:hover {
   padding: 0%;
   border: transparent;
 }
-button:hover p{
+button:hover p {
   line-height: 0px;
   visibility: hidden;
 }
-button:hover p span{
+button:hover p span {
   visibility: visible;
 }
 /*animaciones*/
@@ -136,16 +134,16 @@ img {
   left: 0;
   margin: 10%;
 }
-.headerButtonBack .botonHeader{
+.headerButtonBack .botonHeader {
   border: transparent;
-  width: 25%;
-  height: 40px;
+  width: 30%;
+  height: 5vw;
   padding: 1%;
 }
-.headerButtonBack  .botonHeader a{
+.headerButtonBack .botonHeader a {
   text-decoration: none;
 }
-.headerButtonBack .botonHeader p{
+.headerButtonBack .botonHeader p {
   opacity: 0.4;
   color: white;
   font-size: 4vw;
@@ -153,23 +151,25 @@ img {
   visibility: visible;
   transition: 0s;
 }
-.headerButtonBack .botonHeader p span{
+.headerButtonBack .botonHeader p span {
   visibility: hidden;
 }
-.headerButtonBack .botonHeader:hover{
+.headerButtonBack .botonHeader:hover {
   animation: opacityy 0.3s;
   border: transparent;
-  width: 25%;
-  height: 40px;
+  width: 27%;
+  height: 5vw;
 }
-.headerButtonBack .botonHeader:hover p{
+.headerButtonBack .botonHeader:hover p {
   line-height: 0px;
   visibility: hidden;
 }
-.headerButtonBack .botonHeader:hover p span{
+.headerButtonBack .botonHeader:hover p span {
   visibility: visible;
 }
-.moreContainer{
+.moreContainer {
+  border: 1px solid red;
+  margin-top: 10%;
   padding: 10%;
   display: grid;
   grid-template-columns: 10%;
@@ -201,15 +201,16 @@ div h3:hover {
 .moreContainer textarea {
   font-size: 3vw;
   width: 50vw;
-  height: 10vw;
+  height: 15vw;
   padding: 0%;
   resize: none;
-  border-color: #fff;
+  border-style: solid;
   background-color: transparent;
   color: white;
+  border-radius: 2vw;
 }
- label {
-   transition: 1s;
+label {
+  transition: 1s;
   font-size: 3vw;
 }
 label:hover {
@@ -217,12 +218,13 @@ label:hover {
   color: rgb(105, 208, 255);
 }
 .moreContainer input {
+  border-style: solid;
   font-size: 3vw;
   color: white;
   width: 40vw;
   height: 3vw;
   background-color: transparent;
-  border-style: ridge;
+  border-radius: 1vw;
 }
 .moreContainer p {
   animation: opacityy 1s;
@@ -243,7 +245,7 @@ label:hover {
   text-shadow: 0px 0px 8px #46c1f6;
   line-height: 0px;
 }
-.moreContainer button:disabled p{
+.moreContainer button:disabled p {
   color: palevioletred;
   text-shadow: 0px 0px 8px deeppink;
 }
@@ -256,13 +258,14 @@ label:hover {
   visibility: visible;
   letter-spacing: 5px;
 }
-.moreContainer img {
-  margin-top: 30%;
-  margin-left: 1%;
-  width: 10vw;
+.moreContainer .flecha img {
+  margin-top: 100%;
+  margin-left: 550%;
+  width: 7vw;
 }
-@media screen and (max-width: 485px){
-  .flecha{
+
+@media screen and (max-width: 485px) {
+  .flecha {
     visibility: hidden;
   }
 }
