@@ -215,7 +215,11 @@ label {
   font-size: 3vw;
   margin-left: 18vw;
 }
-label:hover {
+form:invalid label:hover {
+  letter-spacing: 0.5vw;
+  color: #da0e52;
+}
+form:valid label:hover {
   letter-spacing: 0.5vw;
   color: #46c1f6;
 }
