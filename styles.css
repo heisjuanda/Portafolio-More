@@ -168,24 +168,19 @@ img {
   visibility: visible;
 }
 .moreContainer {
-  border: 1px solid red;
-  margin-top: 10%;
-  padding: 10%;
+  padding: 5%;
+  margin: 5%;
   display: grid;
-  grid-template-columns: 10%;
-  grid-template-rows: 15%;
+  grid-template-columns: 20%;
+  grid-template-rows: 10%;
 }
 .moreContainer div {
-  margin-top: 0%;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   /*border: 1px solid #e1306c;*/
   padding: 10%;
 }
 .moreContainer h3 {
   transition: 1s;
-  margin-top: 40%;
+  width: 15vw;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Comfortaa', cursive;
   font-family: 'Libre Barcode 39 Text', cursive;
@@ -193,38 +188,47 @@ img {
   font-family: 'Righteous', cursive;
   font-family: 'Roboto', sans-serif;
   font-size: 4vw;
+  margin-bottom: 20vw;
 }
 div h3:hover {
   color: #46c1f6;
   text-indent: 15%;
 }
+
 .moreContainer textarea {
   font-size: 3vw;
   width: 50vw;
   height: 15vw;
   padding: 0%;
   resize: none;
-  border-style: solid;
+  border-style: groove;
   background-color: transparent;
   color: white;
   border-radius: 2vw;
+  margin-right: 15vw;
+  scroll-behavior: smooth;
+  overflow: auto;
 }
 label {
   transition: 1s;
+  opacity: 0.8;
   font-size: 3vw;
+  margin-left: 18vw;
 }
 label:hover {
-  letter-spacing: 5px;
-  color: rgb(105, 208, 255);
+  letter-spacing: 0.5vw;
+  color: #46c1f6;
 }
 .moreContainer input {
-  border-style: solid;
+  display: block;
+  border-style: groove;
   font-size: 3vw;
   color: white;
   width: 40vw;
   height: 3vw;
   background-color: transparent;
   border-radius: 1vw;
+  margin-left: 3vw;
 }
 .moreContainer p {
   animation: opacityy 1s;
@@ -234,7 +238,7 @@ label:hover {
 
 .moreContainer button {
   margin: 10%;
-  width: 20vw;
+  width: 50vw;
   height: 4vh;
   padding: 5%;
 }
@@ -245,23 +249,24 @@ label:hover {
   text-shadow: 0px 0px 8px #46c1f6;
   line-height: 0px;
 }
-.moreContainer button:disabled p {
+.moreContainer form:invalid button p {
   color: palevioletred;
   text-shadow: 0px 0px 8px deeppink;
 }
 .moreContainer button:hover {
-  width: 20vw;
+  margin: 10%;
+  width: 50vw;
   height: 4vh;
   padding: 5%;
 }
 .moreContainer button:hover p {
   visibility: visible;
-  letter-spacing: 5px;
+  letter-spacing: 1vw;
 }
 .moreContainer .flecha img {
-  margin-top: 100%;
-  margin-left: 550%;
-  width: 7vw;
+  margin-top: 90%;
+  margin-left: 270%;
+  width: 5vw;
 }
 
 @media screen and (max-width: 485px) {
