@@ -207,7 +207,6 @@ div h3:hover {
   border-radius: 2vw;
   margin-right: 15vw;
   scroll-behavior: smooth;
-  overflow: auto;
 }
 label {
   transition: 1s;
@@ -289,7 +288,7 @@ form:valid label:hover {
   width: 5vw;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 587px) {
   .flecha {
     visibility: hidden;
   }
