@@ -214,6 +214,7 @@ label {
   opacity: 0.8;
   font-size: 3vw;
   margin-left: 18vw;
+  color: white;
 }
 form:invalid label:hover {
   letter-spacing: 0.5vw;
