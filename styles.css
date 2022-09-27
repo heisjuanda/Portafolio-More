@@ -289,7 +289,7 @@ form:valid label:hover {
   width: 5vw;
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 500px) {
   .flecha {
     visibility: hidden;
   }
