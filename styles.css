@@ -1,6 +1,6 @@
 html,
 body {
-  margin-top: 0%;
+  margin: 0%;
   padding: 0%;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@ body {
   /*Center everything ever*/
   min-height: 100px;
   display: flex;
+  overflow-x: hidden;
 }
 button {
   cursor: pointer;
