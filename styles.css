@@ -235,19 +235,21 @@ form:valid label:hover {
   border-radius: 1vw;
   margin-left: 3vw;
 }
-@keyframes shake{
-  25%{
+@keyframes shake {
+  25% {
     transform: translateX(5%);
-  }50%{
+  }
+  50% {
     transform: translateX(0%);
-  }75%{
+  }
+  75% {
     transform: translateX(5%);
   }
 }
 .moreContainer input:invalid {
   animation: shake 0.5s;
 }
-.moreContainer textarea:invalid{
+.moreContainer textarea:invalid {
   animation: shake 0.5s;
 }
 .moreContainer p {
