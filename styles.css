@@ -180,14 +180,15 @@ img {
 }
 .moreContainer h3 {
   transition: 1s;
-  width: 15vw;
+  width: 20vw;
+  border: 1pox solid #da0e52;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Comfortaa', cursive;
   font-family: 'Libre Barcode 39 Text', cursive;
   font-family: 'Oswald', sans-serif;
   font-family: 'Righteous', cursive;
   font-family: 'Roboto', sans-serif;
-  font-size: 4vw;
+  font-size: 7vw;
   margin-bottom: 20vw;
 }
 div h3:hover {
